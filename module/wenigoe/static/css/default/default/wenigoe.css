@@ -1,0 +1,346 @@
+#content .block, #right .block, #left .block {
+    margin-bottom: 15px;
+}
+#left .block .title, #right .block .title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #E1E1E1 0%, #C5C5C5 100%);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #A1A1A1;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #A1A1A1;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #A1A1A1;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #A1A1A1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #333333;
+    font-family: 'Comfortaa',cursive;
+    font-size: 1.37em;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 0;
+    padding-left: 4px;
+    padding-right: 0;
+    padding-top: 0;
+}
+#content .block .title {
+    border-bottom-color: #DFDFDF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.block .content {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 8px;
+    position: relative;
+}
+.block .block_headline {
+    border-top-color: #DFDFDF;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 8px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+}
+.block_event_title {
+    color: #AFAFAF;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.block_event_title_holder {
+    padding-bottom: 5px;
+}
+.block_event_form {
+    padding-bottom: 10px;
+}
+.block_event_form input {
+    font-size: 11px;
+}
+.block_event_form select {
+    font-size: 10px;
+}
+.block_event_form_input {
+    width: 90%;
+}
+.block_event_form_input_off {
+    color: #808080;
+}
+.block_event_sub {
+    padding-top: 6px;
+}
+.block_event_sub_holder {
+    display: none;
+}
+.block .js_edit_header_bar {
+    float: right;
+    margin-right: 3px;
+}
+.block .edit_bar {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #DFDFDF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #393939;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.block_comment_holder {
+    margin-top: 10px;
+}
+.block .bottom ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.block .bottom ul li {
+    display: block;
+    position: relative;
+}
+.block .bottom ul li .ajax_image {
+    display: none;
+    left: 4px;
+    position: absolute;
+    top: 5px;
+    z-index: 2;
+}
+.block .bottom ul li a, .block .bottom ul li a:hover {
+    height: 22px;
+    line-height: 22px;
+}
+#left .block .bottom ul li a, #left .block .bottom ul li a:hover, #right .block .bottom ul li a, #right .block .bottom ul li a:hover {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    border-bottom-color: #EFEFEF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #8F8F8F;
+    display: block;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 8px;
+    padding-top: 0;
+    position: relative;
+    text-align: right;
+}
+#left .block .bottom ul li a:hover, #right .block .bottom ul li a:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F8F8F8;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+div#content div.menu, div#left div.menu, div#right div.menu {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+div#content div.menu ul, div#left div.menu ul, div#right div.menu ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 0;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+}
+div#content div.menu ul li, div#left div.menu ul li, div#right div.menu ul li {
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+}
+div#content div.menu ul li a, div#content div.menu ul li a:hover, div#left div.menu ul li a, div#right div.menu ul li a, div#left div.menu ul li a:hover, div#right div.menu ul li a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F9F9F9;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #DFDFDF;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #DFDFDF;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #DFDFDF;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #DFDFDF;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #9F9F9F;
+    display: block;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 4px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    text-align: center;
+}
+div#content div.menu ul li a:hover, div#left div.menu ul li a:hover, div#right div.menu ul li a:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #EFF9FF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+div#content div.menu li.active a, div#content div.menu li.active a:hover, div#left div.menu li.active a, div#right div.menu li.active a, div#left div.menu li.active a:hover, div#right div.menu li.active a:hover {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #CFEEFF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #333333;
+}

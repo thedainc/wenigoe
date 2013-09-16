@@ -1,0 +1,41 @@
+<?php defined('PHPFOX') or exit('NO DICE!'); ?>
+<?php $aContent = array (
+  0 => 
+  array (
+    'dob_setting' => '0',
+    'friend_id' => '244',
+    'friend_user_id' => '9',
+    'is_top_friend' => '0',
+    'time_stamp' => '1379322814',
+    'user_id' => '9',
+    'profile_page_id' => '0',
+    'user_server_id' => '0',
+    'user_name' => 'snipertomcat',
+    'full_name' => 'Jesse Griffin',
+    'gender' => '1',
+    'user_image' => '9%s.jpg',
+    'is_invisible' => '0',
+    'user_group_id' => '1',
+    'language_id' => 'en',
+    'last_activity' => '1379337078',
+  ),
+  1 => 
+  array (
+    'dob_setting' => '0',
+    'friend_id' => '241',
+    'friend_user_id' => '34',
+    'is_top_friend' => '0',
+    'time_stamp' => '1379301481',
+    'user_id' => '34',
+    'profile_page_id' => '0',
+    'user_server_id' => '0',
+    'user_name' => 'wenigoe1',
+    'full_name' => 'Wenigoe',
+    'gender' => '1',
+    'user_image' => '2013/07/7646afa2b185a02ecc92209f1d0055ae%s.jpeg',
+    'is_invisible' => '0',
+    'user_group_id' => '1',
+    'language_id' => '',
+    'last_activity' => '1379120250',
+  ),
+); ?>

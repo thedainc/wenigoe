@@ -1,0 +1,67 @@
+<?php
+
+require("config.inc.php");
+
+$install_results_tab  = "CREATE TABLE $db_table (
+  `id` bigint(14) unsigned NOT NULL auto_increment,
+   `timestamp` timestamp NOT NULL,
+   `theID` varchar(127) NOT NULL,
+  `score` int(10) unsigned NOT NULL,
+  `time` bigint(14) unsigned NOT NULL,
+  `word` varchar(127) NOT NULL,
+  `email` varchar(127) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `timestamp` (`timestamp`)
+  ) AUTO_INCREMENT=1;";
+  
+ $install_ip_tab = "CREATE TABLE $user_table (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `ip` varchar(15) NOT NULL default '',
+  `time` int(14) NOT NULL default '0',
+  PRIMARY KEY (`id`)
+  ) AUTO_INCREMENT=1;";
+
+ $install_eng_tab = "CREATE TABLE $english_table (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `word` varchar(40) NOT NULL default '',
+  PRIMARY KEY (`id`)
+  ) AUTO_INCREMENT=1;";
+
+
+ $install_ger_tab = "CREATE TABLE $german_table (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `word` varchar(40) NOT NULL default '',
+  PRIMARY KEY (`id`)
+  ) AUTO_INCREMENT=1;";
+
+  $install_code_tab = "CREATE TABLE $code_table (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `ip` varchar(15) NOT NULL default '',
+  `time` int(14) NOT NULL default '0',
+  PRIMARY KEY (`id`)
+  )  AUTO_INCREMENT=1;";
+
+ $install_ov_tab = "CREATE TABLE tablesOverview (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `dbname` varchar(40) NOT NULL default '',
+  `description` varchar(80) NOT NULL default '',
+  PRIMARY KEY (`id`)
+  ) AUTO_INCREMENT=1;";
+  
+  
+  
+ $msgResults = mysql_query($install_results_tab);
+ $msg_ip = mysql_query($install_ip_tab);
+ $dic1 = mysql_query($install_eng_tab);
+ $dic2 = mysql_query($install_ger_tab);
+ $msg_code = mysql_query($install_code_tab);
+ $ov = mysql_query($install_ov_tab);
+ 
+ if ($msgResults && $msg_ip && $dic1 && $dic2 && $msg_code && $ov)
+ {
+ echo "Installation successful.<br><br>Please don't forget to delete the install.php file from the server!";
+ }
+ else {
+ echo "Error during installation. Check config.inc.php";
+ }
+ ?>

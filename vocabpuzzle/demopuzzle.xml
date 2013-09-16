@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabularyPuzzle submitResults="true" timeLimit="240"  randomWordSelection="true">
+<id>My Demo Puzzle No.1</id>
+<php>php/</php>
+<!--<word language="English">THEMEFOREST</word>
+<word language="English">AUDIOJUNGLE</word>
+<word language="English">CODECANYON</word>
+<word language="German">OKTOBERFEST</word>-->
+
+    <word language="English">PUREHAPPINESS</word>
+    <word language="English">ALLWAYSPOSITIVE</word>
+    <word language="English">WHENIGOHOME</word>
+</vocabularyPuzzle>

@@ -1,0 +1,33 @@
+<?php
+
+// DNS of the database server
+$db_server = "localhost";
+// db user
+$db_user = "root";
+// db password
+$db_password = "root";
+// my custom password used to allow someone to modifiy the custom databases
+$custom_password = "beetle";
+// database name
+$db_name = "vocabularyPuzzle";
+// results table
+$db_table = "results";
+// user table
+$user_table = "iptab";
+// english dict
+$english_table = "english";
+// german table
+$german_table = "german";
+// code table
+$code_table = "codetab";
+// database handle
+$db = mysql_connect($db_server,$db_user,$db_password);
+// establish database connection
+mysql_select_db($db_name,$db);
+// IP blocking (40 seconds)
+$timestamp =20;
+$timeDelay = time()-$timestamp;
+// user IP
+$user_ip = $_SERVER['REMOTE_ADDR'];
+
+?>

@@ -1,0 +1,11 @@
+<ul>
+	<li>{$bl1}</li>
+	<li>{$bl2}</li>
+	<li>{$bl3}</li>
+	<li>{$bl4}</li>
+	<li>{$bl5}</li>
+	<li>{$bl6}</li>
+	<li>{$bl7}</li>
+	<li>{$bl8}</li>
+	<li>{$bl9}</li>
+</ul>
